@@ -63,6 +63,14 @@ while 1:
                 cv2.putText(frame, "Pentagon",(x,y),font,1,(0,0,0))
             elif len(approx) == 6:
                 cv2.putText(frame, "Hexagon",(x,y),font,1,(0,0,0))
+            elif len(approx) == 7:
+                cv2.putText(frame, "Heptagon",(x,y),font,1,(0,0,0))
+            elif len(approx) == 8:
+                cv2.putText(frame, "Octagon",(x,y),font,1,(0,0,0))
+            elif len(approx) == 9:
+                cv2.putText(frame, "Nanogon",(x,y),font,1,(0,0,0))
+            elif len(approx) == 10:
+                cv2.putText(frame, "Decaton",(x,y),font,1,(0,0,0))
             else:
                 cv2.putText(frame, "Circle",(x,y),font,1,(0,0,0))         
 
